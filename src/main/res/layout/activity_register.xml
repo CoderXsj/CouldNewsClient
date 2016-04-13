@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/containerBackground2">
+
+    <RelativeLayout
+        android:id="@+id/rl_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_action_bar"
+        android:background="@color/main_red_color">
+
+        <ImageView
+            android:layout_width="@dimen/main_action_bar"
+            android:layout_height="@dimen/main_action_bar"
+            android:src="@mipmap/base_action_bar_back_black" />
+
+        <Button
+            android:layout_width="@dimen/dimen_65"
+            android:layout_height="@dimen/main_action_bar"
+            android:layout_alignParentRight="true"
+            android:background="?attr/selectorBtn"
+            android:text="下一步"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/met_username"
+        android:layout_width="250dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="@dimen/dimen_20"
+        android:layout_below="@+id/rl_toolbar"
+        android:layout_centerHorizontal="true"
+        android:hint="手机号" />
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/btn_check_msg"
+        android:layout_width="250dp"
+        android:layout_height="@dimen/dimen_30"
+        android:layout_below="@+id/met_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/main_red_color"
+        android:text="获取验证码" />
+
+</RelativeLayout>

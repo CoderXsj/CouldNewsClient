@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/main_action_bar"
+    android:background="?attr/containerBackground2">
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="@dimen/main_action_bar"
+        android:layout_height="@dimen/main_action_bar"
+        android:background="@drawable/transparent_press_bg_selector"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/base_action_bar_back_black" />
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="@dimen/main_action_bar"
+        android:layout_height="@dimen/main_action_bar"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/transparent_press_bg_selector"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_newspage_menu_moreoverflow" />
+</RelativeLayout>

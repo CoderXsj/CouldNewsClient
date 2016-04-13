@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_40"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <com.zcw.togglebutton.ToggleButton
+        android:id="@+id/tb_button"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        toggle:borderWidth="1dp"
+        toggle:onColor="#f69f9a"
+        toggle:offColor="#e0e1e0"
+        toggle:spotColor="#fff" />
+
+    <TextView
+        android:gravity="left|center_vertical"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/tb_button"
+        android:textColor="?attr/textColor"
+        android:textSize="15sp" />
+
+</RelativeLayout>

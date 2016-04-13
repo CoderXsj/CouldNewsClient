@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_menu_height"
+    android:background="?attr/containerBackground">
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/shadow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/shadow"
+        android:orientation="horizontal">
+
+        <com.icoder.couldnewsclient.widget.TextViewPlus
+            android:id="@+id/tv_nav_tab_news"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_news_selector"
+            android:text="@string/news"
+            app:top_height="25dp"
+            app:top_width="25dp" />
+
+        <com.icoder.couldnewsclient.widget.TextViewPlus
+            android:id="@+id/tv_nav_tab_read"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_read_selector"
+            android:text="@string/read"
+            app:top_height="25dp"
+            app:top_width="25dp" />
+
+        <com.icoder.couldnewsclient.widget.TextViewPlus
+            android:id="@+id/tv_nav_tab_va"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_va_selector"
+            android:text="@string/va"
+            app:top_height="25dp"
+            app:top_width="25dp" />
+
+        <com.icoder.couldnewsclient.widget.TextViewPlus
+            android:id="@+id/tv_nav_tab_pc"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_pc_selector"
+            android:text="@string/my"
+            app:top_height="25dp"
+            app:top_width="25dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#ce3f3f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="main_red_color">#de3f3f</color>
+
+    <drawable name="transparent_gray_7f">#7fefefef</drawable>
+    <drawable name="transparent_gray_22">#22efefef</drawable>
+    <drawable name="transparent_white_00">#00ffffff</drawable>
+
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="gray_light">#efefef</drawable>
+
+    <color name="dots_color">#FE2E64</color>
+    <color name="darker_gray">#aaa</color>
+
+    <color name="dark_yellow">#FE9A2E</color>
+    <color name="button_color">#01DFA5</color>
+    <color name="white">#fafafa</color>
+    <color name="black">#1a1a1a</color>
+
+    <color name="white_dark">#f3f3f3</color>
+    <drawable name="white_dark">#f3f3f3</drawable>
+    <drawable name="deep_white_dark">#dedede</drawable>
+    <color name="deep_white_dark">#dedede</color>
+    <color name="gray_light">#cccccc</color>
+    <color name="gray">#777</color>
+    <drawable name="gray">#777</drawable>
+    <color name="gray_dark">#383838</color>
+    <drawable name="gray_dark">#383838</drawable>
+    <color name="green_light">#8e9ea4</color>
+    <color name="green">#34515c</color>
+    <color name="green_dark">#1e3e4a</color>
+    <color name="night_mask">#90000000</color>
+
+    <color name="red">#de3f3f</color>
+</resources>

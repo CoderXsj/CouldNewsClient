@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_selected="false" android:drawable="@mipmap/biz_navigation_tab_pc"></item>
+    <item android:state_selected="true" android:drawable="@mipmap/biz_navigation_tab_pc_selected"></item>
+</selector>

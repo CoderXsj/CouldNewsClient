@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CouldNewsClient</string>
+    <string name="username">测试</string>
+    <string name="settings">设置</string>
+    <string name="exit">退出</string>
+
+    <string name="first_title">Comprehensive</string>
+    <string name="first_desc">We collect the best pieces from around the web and combine them into a story</string>
+    <string name="second_title">Twice a day</string>
+    <string name="second_desc">Top stories delivered yo you twice daily at times you choose</string>
+    <string name="third_title">Definitive</string>
+    <string name="third_desc">We surface the most important need-to-know news</string>
+    <string name="news">新闻</string>
+    <string name="read">阅读</string>
+    <string name="va">视听</string>
+    <string name="my">我</string>
+    <string name="loading">加载更多</string>
+</resources>
